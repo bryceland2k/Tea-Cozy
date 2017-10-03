@@ -1,0 +1,22 @@
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 69px;
+  width: 100%;
+  top: 0px;
+  position: fixed;
+  z-index: 5;
+  border-bottom: 1px solid seashell;
+}
+
+.header-logo {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav span {
+  margin-right: 30px;
+}
