@@ -1,4 +1,16 @@
 
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+div {
+  border: 1px solid white;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -19,4 +31,34 @@ header {
 
 nav span {
   margin-right: 30px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-section {
+  display: flex;
+  height: 700px;
+  width: 1200px;
+}
+
+.middle-section {
+  display: flex;
+  height: 500px;
+  width: 1000px;
+}
+
+.bottom-section {
+  display: flex;
+  height: 500px;
+  width: 1000px;
+}
+
+footer {
+  display: flex;
+  height: 200px;
+  width: 100%;
 }
