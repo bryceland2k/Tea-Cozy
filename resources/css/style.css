@@ -7,13 +7,6 @@ body {
   opacity: 0.9;
 }
 
-div,
-h2,
-h4,
-h3 {
-  border: 1px solid white;
-}
-
 header {
   display: flex;
   justify-content: space-between;
@@ -63,8 +56,11 @@ main {
 }
 
 h2,
-h4 {
-  margin: 10px auto;
+h3,
+h4,
+h5 {
+  padding: 10px auto;
+  margin: 0px 0px;
   }
 
 .middle-section {
@@ -73,6 +69,7 @@ h4 {
   align-items: center;
   height: auto;
   width: 1000px;
+  margin: 50px auto;
 }
 
 .middle-section img {
@@ -87,6 +84,12 @@ h4 {
   width: 100%;
 }
 
+#tea-of-the-month h2,
+#tea-of-the-month h4,
+#mission h2,
+#mission h4 {
+  margin: 10px auto;
+}
 .top-row {
   display: flex;
   justify-content: space-between;
@@ -104,10 +107,17 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+
+.bottom-row div {
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .middle-section h4 {
-  margin-top: 10px;
+  margin: 10px auto;
 }
 
 .bottom-section {
@@ -118,6 +128,10 @@ h4 {
   height: 500px;
   width: 1200px;
   background-image: url("../images/img-locations-background.jpg");
+}
+
+#locations {
+  padding-bottom: 15px;
 }
 
 .location-addresses {
@@ -137,9 +151,19 @@ h4 {
   height: 300px;
 }
 
-
 footer {
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   height: 200px;
+}
+
+footer h5 {
+  margin: 10px 0px;
+}
+
+#copyright {
   width: 100%;
+  padding-top: 20px;
 }
